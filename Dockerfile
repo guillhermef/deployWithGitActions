@@ -17,7 +17,7 @@ COPY . .
 RUN yarn build
 
 # Expondo a porta que a aplicação está escutando
-EXPOSE 80
+EXPOSE 3000
 
 # Iniciando a aplicação
 CMD ["yarn", "start"]
